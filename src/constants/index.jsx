@@ -14,7 +14,7 @@ export const navItems = [
   { label: "Testimonials", href: "#" },
 ];
 
-export const testimonials = [
+/*export const testimonials = [
   {
     user: "Alice Johnson",
     company: "Tech Innovators",
@@ -133,4 +133,4 @@ export const communityLinks = [
   { href: "#", text: "Webinars" },
   { href: "#", text: "Mentorship Programs" },
   { href: "#", text: "Industry Insights" },
-];
+];*/
