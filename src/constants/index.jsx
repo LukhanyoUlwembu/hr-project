@@ -1,3 +1,5 @@
+import { Briefcase, UserCheck, CalendarCheck, ShieldCheck, Globe, Users } from "lucide-react";
+
 /*import { Briefcase, UserCheck, CalendarCheck, ShieldCheck, Globe, Users } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
@@ -51,7 +53,7 @@ export const navItems = [
     image: user6,
     text: "From job alerts to resume tips, this portal has everything a job seeker needs! Highly recommended.",
   },
-];
+];*/
 
 export const features = [
   {
@@ -86,7 +88,7 @@ export const features = [
   },
 ];
 
-export const checklistItems = [
+/*export const checklistItems = [
   { title: "Create a Professional Profile", description: "Stand out with a detailed and engaging profile." },
   { title: "Upload Your Resume", description: "Easily apply to jobs with a single click." },
   { title: "Set Job Alerts", description: "Stay updated with job openings that match your skills." },
