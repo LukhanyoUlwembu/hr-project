@@ -1,5 +1,5 @@
-import video1 from "../assets/video1.mp4";
-import video2 from "../assets/video2.mp4";
+import recruiter from "../assets/recruiter.jpg";
+import jobseeker from "../assets/jobseeker.jpeg";
 import React from 'react'
 
 const HeroSection = () => {
@@ -20,20 +20,15 @@ const HeroSection = () => {
     </a>    
     </div>
     <div className="flex mt-10 justify-center gap-5">
-    <div className="w-64 h-96 border border-green-700 rounded-lg overflow-hidden">
-        <video autoPlay loop muted className="w-full h-full object-fill">
-            <source src={video1} type="video/mp4" />
-            Your browser does not support the video tag.
-        </video>
+    <div className="w-96 h-96 border border-green-700 rounded-lg overflow-hidden">
+    <img src={recruiter} alt="Recruiter" className="w-96 h-96" />
     </div>
-    <div className="w-64 h-96 border border-green-700 rounded-lg overflow-hidden">
-        <video autoPlay loop muted className="w-full h-full object-fill">
-            <source src={video2} type="video/mp4" />
-            Your browser does not support the video tag.
-        </video>
+    <div className="w-96 h-96 border border-green-700 rounded-lg overflow-hidden">
+    <img src={jobseeker} alt="Job Seeker" className="w-96 h-96" />  
+      </div> 
     </div>
 </div>
-    </div>
+   
   )
 }
 
