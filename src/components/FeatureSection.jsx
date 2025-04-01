@@ -3,7 +3,7 @@ import React from 'react'
 
 const FeatureSection = () => {
   return (
-    <div className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
+    <div className="p-3 relative mt-20">
      <div className="text-center">
      <span className="text-blue-500 text-2xl h-6 font-medium px-2 py-1 uppercase">
     Features
@@ -20,7 +20,7 @@ const FeatureSection = () => {
             </div>
             <div>
               <h5 className="mt-1 mb-6 text-xl">{feature.text}</h5>
-              <p mt-2>{feature.description}</p>
+              <p className="mt-2">{feature.description}</p>
             </div>
            </div>
           </div>

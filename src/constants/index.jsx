@@ -1,13 +1,11 @@
 import { Briefcase, UserCheck, CalendarCheck, ShieldCheck, Globe, Users } from "lucide-react";
 
-/*import { Briefcase, UserCheck, CalendarCheck, ShieldCheck, Globe, Users } from "lucide-react";
-
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
 import user3 from "../assets/profile-pictures/user3.jpg";
 import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
-import user6 from "../assets/profile-pictures/user6.jpg";*/
+import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
   { label: "Find Jobs", href: "#" },
@@ -16,7 +14,7 @@ export const navItems = [
   { label: "Testimonials", href: "#" },
 ];
 
-/*export const testimonials = [
+export const testimonials = [
   {
     user: "Alice Johnson",
     company: "Tech Innovators",
@@ -53,7 +51,7 @@ export const navItems = [
     image: user6,
     text: "From job alerts to resume tips, this portal has everything a job seeker needs! Highly recommended.",
   },
-];*/
+];
 
 export const features = [
   {
@@ -88,7 +86,7 @@ export const features = [
   },
 ];
 
-/*export const checklistItems = [
+export const checklistItems = [
   { title: "Create a Professional Profile", description: "Stand out with a detailed and engaging profile." },
   { title: "Upload Your Resume", description: "Easily apply to jobs with a single click." },
   { title: "Set Job Alerts", description: "Stay updated with job openings that match your skills." },
@@ -102,13 +100,13 @@ export const pricingOptions = [
     features: ["Apply to jobs", "Profile visibility", "Job alerts", "Resume upload"],
   },
   {
-    title: "Employer - Basic",
-    price: "$49/month",
+    title: "Employer - Pro",
+    price: "$49",
     features: ["Post up to 10 jobs", "Access candidate database", "Basic analytics", "Email support"],
   },
   {
     title: "Employer - Premium",
-    price: "$199/month",
+    price: "$199",
     features: ["Unlimited job posts", "Advanced candidate filtering", "Priority support", "Dedicated hiring consultant"],
   },
 ];
@@ -135,4 +133,4 @@ export const communityLinks = [
   { href: "#", text: "Webinars" },
   { href: "#", text: "Mentorship Programs" },
   { href: "#", text: "Industry Insights" },
-];*/
+];
